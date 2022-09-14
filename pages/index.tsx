@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -13,7 +14,18 @@ export default function Home() {
 
       <div className="bg-white text-black dark:bg-[#282C34] dark:text-white">
         <Header />
-        <main className="text-red-500">hello</main>
+        <main className="px-8 mt-10">
+          <article className="text-center">
+            <h1 className="text-4xl font-bold">Hi, I'm Subho.</h1>
+            <p className="mt-4">
+              I am a full-stack software engineer who enjoy working with
+              talented designers to buld innovative user experiences with React.
+            </p>
+            <div className="bg-gray-400 aspect-video rounded-lg mt-8"></div>
+          </article>
+
+          <Skills />
+        </main>
       </div>
     </div>
   );
