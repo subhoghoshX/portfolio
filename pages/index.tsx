@@ -19,7 +19,7 @@ export default function Home() {
         <Header />
         <main className="px-8 mt-10">
           <article className="text-center">
-            <h1 className="text-4xl font-bold">Hi, I'm Subho.</h1>
+            <h1 className="text-4xl font-bold">Hi, I&apos;m Subho.</h1>
             <p className="mt-4">
               I am a full-stack software engineer who enjoy working with
               talented designers to buld innovative user experiences with React.

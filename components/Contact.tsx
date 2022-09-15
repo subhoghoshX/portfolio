@@ -1,10 +1,10 @@
 export default function Contact() {
   return (
     <section className="mt-20">
-      <h2 className="text-4xl font-bold text-center">Let's talk!</h2>
+      <h2 className="text-4xl font-bold text-center">Let&apos;s talk!</h2>
       <p className="mt-8">
-        If you'd like to talk about a project, or have something to share, you
-        may tell me about it right here or shoot me an email at
+        If you&apos;d like to talk about a project, or have something to share,
+        you may tell me about it right here or shoot me an email at
         contact.subhoghosh@gmail.com
       </p>
 
