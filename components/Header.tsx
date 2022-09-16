@@ -13,8 +13,8 @@ export default function Header() {
       <div className="flex items-center gap-x-3">
         {/* TODO: make the menu better */}
         <nav
-          className={`absolute right-6 top-4 bg-gray-300 dark:bg-gray-900 px-6 py-12 rounded-2xl flex flex-col gap-y-4 w-48 ${
-            isOpen ? "" : "hidden"
+          className={`absolute right-6 top-4 bg-gray-300 dark:bg-gray-900 px-6 py-12 rounded-2xl flex-col gap-y-4 w-48 sm:block sm:p-1 sm:static sm:bg-transparent sm:w-auto sm:space-x-6 ${
+            isOpen ? "flex" : "hidden"
           }`}
         >
           <a href="#projects">Projects</a>
@@ -37,7 +37,7 @@ export default function Header() {
           </svg>
         </button>
         <button
-          className="p-1 hover:bg-gray-300 dark:hover:bg-gray-900 rounded relative"
+          className="p-1 hover:bg-gray-300 dark:hover:bg-gray-900 rounded relative sm:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
