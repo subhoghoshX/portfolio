@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <article className="text-center">
+    <article className="text-center md:text-left md:flex md:items-center">
       <div>
         <h1 className="text-4xl font-bold sm:text-5xl">Hi, I&apos;m Subho.</h1>
         <p className="mt-4">
@@ -8,7 +8,7 @@ export default function Hero() {
           designers to build innovative user experiences with React.
         </p>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 md:-mr-12">
         <img src="computer.svg" alt="computer illustration" />
       </div>
     </article>
