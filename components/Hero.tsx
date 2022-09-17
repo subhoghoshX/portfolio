@@ -8,7 +8,9 @@ export default function Hero() {
           designers to build innovative user experiences with React.
         </p>
       </div>
-      <div className="bg-gray-400 aspect-video rounded-lg mt-8"></div>
+      <div className="mt-10">
+        <img src="computer.svg" alt="computer illustration" />
+      </div>
     </article>
   );
 }
