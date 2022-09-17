@@ -3,7 +3,7 @@ import Project from "./Project";
 export default function Projects() {
   return (
     <article className="mt-20">
-      <h2 className="text-4xl font-bold text-center">Projects</h2>
+      <h2 className="text-4xl font-bold text-center sm:text-5xl">Projects</h2>
       <h3 className="mt-8 text-sm text-blue-800">Personal projects:</h3>
       <p className="mt-2">
         I love to build something in my free time. Below are some of my
