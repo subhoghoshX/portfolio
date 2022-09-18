@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="bg-white text-black dark:bg-[#282C34] dark:text-white">
         <Header />
-        <main className="px-8 container">
+        <main className="container mt-10">
           <Hero />
           <Skills />
           <Projects />
