@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="px-8 py-6 flex items-center relative container">
+    <header className="py-6 flex items-center relative">
       <Link href="/">
         <a className="font-bold mr-auto">Subho Ghosh</a>
       </Link>

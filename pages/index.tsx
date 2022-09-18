@@ -16,9 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-white text-black dark:bg-[#282C34] dark:text-white">
+      <div className="container bg-white text-black dark:bg-[#282C34] dark:text-white">
         <Header />
-        <main className="container mt-10">
+        <main className="mt-10">
           <Hero />
           <Skills />
           <Projects />
