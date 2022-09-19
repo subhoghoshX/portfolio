@@ -17,6 +17,7 @@ export default function Header() {
             isOpen ? "flex" : "hidden"
           }`}
         >
+          <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -37,7 +38,9 @@ export default function Header() {
           </svg>
         </button>
         <button
-          className="p-1 hover:bg-gray-300 dark:hover:bg-gray-900 rounded relative sm:hidden"
+          className={`p-1 hover:bg-gray-300 dark:hover:bg-gray-900 rounded relative sm:hidden ${
+            isOpen ? "bg-gray-300" : ""
+          }`}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (

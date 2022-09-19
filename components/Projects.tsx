@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <article className="mt-20">
+    <article className="mt-20" id="projects">
       <h2 className="text-4xl font-bold text-center sm:text-5xl">Projects</h2>
       <h3 className="mt-8 text-sm text-blue-800">Personal projects:</h3>
       <p className="mt-2">

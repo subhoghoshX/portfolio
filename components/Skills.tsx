@@ -25,7 +25,7 @@ import {
 export default function Skills() {
   const base = "h-8 w-8 transition-colors duration-200";
   return (
-    <article className="text-center mt-20">
+    <article className="text-center mt-20" id="skills">
       <h2 className="text-4xl font-bold sm:text-5xl">Skills</h2>
       <div className="mt-8 grid grid-cols-5 justify-items-center gap-8 flex-wrap">
         <SiHtml5 className={`${base} hover:fill-[#E34F26]`} />

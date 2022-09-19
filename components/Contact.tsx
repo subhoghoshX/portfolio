@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="mt-20">
+    <section className="mt-20" id="contact">
       <h2 className="text-4xl font-bold text-center">Let&apos;s talk!</h2>
       <p className="mt-8">
         If you&apos;d like to talk about a project, or have something to share,
