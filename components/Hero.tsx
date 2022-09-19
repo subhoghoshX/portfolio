@@ -8,7 +8,7 @@ export default function Hero() {
           designers to build innovative user experiences with React.
         </p>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 max-w-md mx-auto md:max-w-none md:mx-0">
         <img src="computer.svg" alt="computer illustration" />
       </div>
     </article>

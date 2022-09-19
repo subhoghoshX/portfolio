@@ -13,7 +13,7 @@ export default function Header() {
       <div className="flex items-center gap-x-3">
         {/* TODO: make the menu better */}
         <nav
-          className={`absolute right-6 top-4 bg-gray-300 dark:bg-gray-900 px-6 py-12 rounded-2xl flex-col gap-y-4 w-48 sm:block sm:p-1 sm:static sm:bg-transparent sm:w-auto sm:space-x-6 ${
+          className={`absolute right-0 top-16 bg-gray-300 dark:bg-gray-900 px-6 py-12 rounded flex-col gap-y-4 w-48 sm:block sm:p-1 sm:static sm:bg-transparent sm:w-auto sm:space-x-6 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
