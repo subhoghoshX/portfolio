@@ -16,15 +16,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container bg-white text-black dark:bg-[#282C34] dark:text-white">
-        <Header />
-        <main className="mt-10">
-          <Hero />
-          <Skills />
-          <Projects />
-          <Contact />
-          <Footer />
-        </main>
+      <div className="bg-gray-50">
+        <div className="container shadow-sm bg-white text-black dark:bg-[#282C34] dark:text-white">
+          <Header />
+          <main className="mt-10">
+            <Hero />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+          </main>
+        </div>
       </div>
     </div>
   );
