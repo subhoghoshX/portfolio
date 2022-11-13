@@ -17,7 +17,7 @@ export default function Header() {
       <div className="flex items-center gap-x-3">
         {/* TODO: make the menu better */}
         <nav
-          className={`absolute right-0 top-16 bg-gray-300 border shadow-sm sm:rounded-full dark:bg-gray-900 px-6 py-12 rounded flex-col gap-y-4 w-48 sm:block sm:px-8 sm:py-2 sm:static sm:bg-transparent sm:w-auto sm:space-x-6 ${
+          className={`absolute right-0 top-16 text-sm bg-gray-300 dark:bg-[#2b2f37] border dark:border-gray-700 shadow-sm sm:rounded-full dark:bg-gray-900 px-6 py-12 rounded flex-col gap-y-4 w-48 sm:block sm:px-8 sm:py-3 sm:static sm:bg-transparent sm:w-auto sm:space-x-6 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
@@ -61,8 +61,8 @@ function DarkToggleButton({className}: DarkToggleButtonProps) {
   }
 
   return (
-    <button className={`${className} border rounded-full p-1.5 shadow-sm`} onClick={toggleDark}>
-      <MoonIcon className="h-6 w-6" />
+    <button className={`${className} border dark:border-gray-700 rounded-full p-1.5 shadow-sm`} onClick={toggleDark}>
+      <MoonIcon className="h-6 w-6 stroke-gray-800 dark:stroke-gray-300" />
     </button>
   )
 }
