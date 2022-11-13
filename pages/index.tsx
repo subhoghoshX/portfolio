@@ -29,8 +29,8 @@ export default function Home() {
         }}
       />
 
-      <div className="bg-gray-50">
-        <div className="container shadow-sm bg-white text-black dark:bg-[#282C34] dark:text-white">
+      <div className="bg-zinc-50 dark:bg-black">
+        <div className="container bg-white text-black dark:bg-zinc-900 dark:text-white border-l border-r border-zinc-200 dark:border-zinc-800">
           <Header />
           <main className="mt-10">
             <Hero />
