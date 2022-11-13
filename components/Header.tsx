@@ -5,6 +5,16 @@ import { MoonIcon, XMarkIcon, Bars3Icon } from '@heroicons/react/24/outline';
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  function toggleDark() {
+    if (JSON.parse(localStorage.getItem("isDark") || "false")) {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("isDark", "false");
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("isDark", "true");
+    }
+  }
+
   return (
     <header className="py-6 flex items-center justify-between relative">
       <Link href="/">
@@ -24,7 +34,7 @@ export default function Header() {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
-        <button className="sm:hidden">
+        <button className="sm:hidden" onClick={toggleDark}>
           <MoonIcon className="h-6 w-6" />
         </button>
         <button
@@ -40,7 +50,7 @@ export default function Header() {
           )}
         </button>
       </div>
-      <button className="hidden sm:block">
+      <button className="hidden sm:block" onClick={toggleDark}>
         <MoonIcon className="h-6 w-6" />
       </button>
     </header>
