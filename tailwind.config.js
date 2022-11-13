@@ -10,7 +10,7 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "1024px",
-      xl: "1280px",
+      // xl: "1280px",
     },
     container: {
       center: true,
@@ -19,7 +19,7 @@ module.exports = {
         sm: "3rem",
         md: "4rem",
         lg: "5rem",
-        xl: "6rem",
+        // xl: "6rem",
       },
     },
     extend: {},
