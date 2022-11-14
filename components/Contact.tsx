@@ -23,6 +23,7 @@ export default function Contact() {
           <input
             className="mt-3 block w-full rounded-lg border-zinc-700 bg-transparent p-3 focus:border-cyan-400 focus:ring-0"
             type="text"
+            name="name"
           />
         </div>
 
@@ -33,6 +34,7 @@ export default function Contact() {
           <input
             className="mt-3 block w-full rounded-lg border-zinc-700 bg-transparent p-3 focus:border-cyan-400 focus:ring-0"
             type="email"
+            name="email"
           />
         </div>
 
@@ -49,7 +51,10 @@ export default function Contact() {
           ></textarea>
         </div>
 
-        <button className="mt-10 w-full rounded-lg bg-zinc-700 py-3 px-8 text-white">
+        <button
+          type="submit"
+          className="mt-10 w-full rounded-lg bg-zinc-700 py-3 px-8 text-white"
+        >
           SEND
         </button>
       </form>
