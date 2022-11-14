@@ -7,7 +7,7 @@ export default function Projects() {
       <h3 className="mt-20 inline-block rounded-full border border-cyan-600 px-4 py-1.5 text-sm text-cyan-500 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400">
         Personal Projects
       </h3>
-      <div className="mt-10 space-y-14">
+      <div className="mt-10 space-y-20 md:space-y-14">
         <Project
           title="Laurete"
           desc="A blazing fast application to convert your tweet into beautiful images. Have all the configuration options you need at your fingertip. Simple by default, powerful when neeeded."

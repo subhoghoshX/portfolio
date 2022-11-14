@@ -22,7 +22,7 @@ export default function Project({
           <div className="absolute -bottom-4 -right-12 -left-12 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)] dark:bg-cyan-900"></div>
         </div>
       </div>
-      <div className="mt-4 md:col-span-7 md:mt-0">
+      <div className="mt-8 md:col-span-7 md:mt-0">
         <div>
           <h4 className="text-xl font-bold md:text-base">{title}</h4>
           <p className="mt-2 text-zinc-600 dark:text-zinc-400 md:text-sm">
