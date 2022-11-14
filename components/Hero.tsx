@@ -5,24 +5,26 @@ export default function Hero() {
     <article className="text-center md:flex md:items-center md:gap-10 md:py-14 md:text-left">
       <div>
         <h1 className="flex flex-col gap-5">
-          <span className="hidden text-cyan-400 md:block">Hi,</span>
+          <span className="hidden text-cyan-500 dark:text-cyan-400 md:block">
+            Hi,
+          </span>
           <span className="text-4xl font-bold sm:text-5xl">
             <span className="md:hidden">Hi, </span>I&apos;m Subho.
           </span>
         </h1>
-        <p className="mt-5 dark:text-gray-400">
+        <p className="mt-5 text-zinc-600 dark:text-zinc-400">
           I am a full-stack software engineer who enjoy working with talented
           designers to build innovative user experiences with React.
         </p>
-        <div className="mt-6 flex justify-center gap-8 dark:text-zinc-400 md:justify-start">
+        <div className="mt-6 flex justify-center gap-8 text-zinc-600 dark:text-zinc-400 md:justify-start">
           <a href="https://twitter.com/subhoghosh_">
-            <SiTwitter className="h-5 w-5 dark:hover:text-zinc-300" />
+            <SiTwitter className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
           <a href="https://github.com/subhoghoshX">
-            <SiGithub className="h-5 w-5 dark:hover:text-zinc-300" />
+            <SiGithub className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
           <a href="https://www.linkedin.com/in/subho-ghosh-7a59aa250/">
-            <SiLinkedin className="h-5 w-5 dark:hover:text-zinc-300" />
+            <SiLinkedin className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
         </div>
       </div>

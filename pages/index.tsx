@@ -30,7 +30,7 @@ export default function Home() {
       />
 
       <div className="bg-zinc-50 dark:bg-black">
-        <div className="container border-l border-r border-zinc-200 bg-white text-black dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
+        <div className="container border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
           <Header />
           <main className="mt-10">
             <Hero />

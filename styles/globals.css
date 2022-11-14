@@ -10,4 +10,12 @@
   body::-webkit-scrollbar-thumb {
     @apply rounded-full border-2 border-solid border-zinc-50 bg-zinc-300 hover:bg-zinc-400 dark:border-black dark:bg-zinc-800 dark:hover:bg-zinc-700;
   }
+
+  html.dark {
+    scrollbar-color: theme("colors.zinc[800]") transparent;
+  }
+
+  html {
+    scrollbar-color: theme("colors.zinc[300]") transparent;
+  }
 }

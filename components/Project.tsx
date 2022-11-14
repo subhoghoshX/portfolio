@@ -25,18 +25,20 @@ export default function Project({
       <div className="mt-4 md:col-span-7 md:mt-0">
         <div>
           <h4 className="text-xl font-bold md:text-base">{title}</h4>
-          <p className="mt-2 text-zinc-400 md:text-sm">{desc}</p>
+          <p className="mt-2 text-zinc-600 dark:text-zinc-400 md:text-sm">
+            {desc}
+          </p>
         </div>
         <div className="mt-4 space-x-5 text-white">
           <a
             href={liveUrl}
-            className="inline-block rounded bg-zinc-700 px-12 py-2"
+            className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
           >
             View Live
           </a>
           <a
             href={codeUrl}
-            className="inline-block rounded bg-zinc-700 px-12 py-2"
+            className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
           >
             {isOpenSource ? "My Contrbutions" : "Code"}
           </a>

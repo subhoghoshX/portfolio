@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <article className="py-20" id="projects">
       <h2 className="text-center text-4xl font-bold sm:text-5xl">Projects</h2>
-      <h3 className="mt-20 inline-block rounded-full border border-cyan-800 bg-cyan-900/30 px-4 py-1.5 text-sm text-cyan-400">
+      <h3 className="mt-20 inline-block rounded-full border border-cyan-600 px-4 py-1.5 text-sm text-cyan-500 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400">
         Personal Projects
       </h3>
       <div className="mt-10 space-y-14">
@@ -36,7 +36,7 @@ export default function Projects() {
           isOpenSource={false}
         />
       </div>
-      <h3 className="mt-32 inline-block rounded-full border border-cyan-800 bg-cyan-900/30 px-4 py-1.5 text-sm text-cyan-400">
+      <h3 className="mt-32 inline-block rounded-full border border-cyan-600 px-4 py-1.5 text-sm text-cyan-500 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400">
         Opensource Contributions
       </h3>
       <div className="mt-10 space-y-14">

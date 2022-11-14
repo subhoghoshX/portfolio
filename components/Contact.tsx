@@ -11,7 +11,7 @@ export default function Contact() {
       </p>
 
       <form
-        className="mt-16 bg-zinc-800 p-28 sm:rounded-[3.5rem]"
+        className="mt-16 border p-28 shadow-lg shadow-zinc-900/10 dark:border-zinc-700/50 dark:bg-zinc-800 sm:rounded-[3.5rem]"
         method="post"
         data-netlify="true"
         name="contact"
@@ -54,7 +54,7 @@ export default function Contact() {
 
         <button
           type="submit"
-          className="mt-10 w-full rounded-lg bg-zinc-700 py-3 px-8 text-white"
+          className="mt-10 w-full rounded-lg bg-zinc-500 py-3 px-8 text-white hover:bg-zinc-600 dark:bg-zinc-700 dark:hover:bg-zinc-600"
         >
           SEND
         </button>
