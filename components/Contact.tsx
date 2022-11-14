@@ -25,6 +25,7 @@ export default function Contact() {
             className="mt-3 block w-full rounded-lg border-zinc-700 bg-transparent p-3 focus:border-cyan-400 focus:ring-0"
             type="text"
             name="name"
+            required
           />
         </div>
 
@@ -36,6 +37,7 @@ export default function Contact() {
             className="mt-3 block w-full rounded-lg border-zinc-700 bg-transparent p-3 focus:border-cyan-400 focus:ring-0"
             type="email"
             name="email"
+            required
           />
         </div>
 
@@ -49,6 +51,7 @@ export default function Contact() {
             id="user_message"
             cols={30}
             rows={0}
+            required
           ></textarea>
         </div>
 
