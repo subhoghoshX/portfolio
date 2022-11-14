@@ -14,15 +14,15 @@ export default function Hero() {
           I am a full-stack software engineer who enjoy working with talented
           designers to build innovative user experiences with React.
         </p>
-        <div className="mt-6 flex justify-center gap-8 dark:text-gray-300 md:justify-start">
+        <div className="mt-6 flex justify-center gap-8 dark:text-zinc-400 md:justify-start">
           <a href="https://twitter.com/subhoghosh_">
-            <SiTwitter className="h-5 w-5" />
+            <SiTwitter className="h-5 w-5 dark:hover:text-zinc-300" />
           </a>
           <a href="https://github.com/subhoghoshX">
-            <SiGithub className="h-5 w-5" />
+            <SiGithub className="h-5 w-5 dark:hover:text-zinc-300" />
           </a>
           <a href="https://www.linkedin.com/in/subho-ghosh-7a59aa250/">
-            <SiLinkedin className="h-5 w-5" />
+            <SiLinkedin className="h-5 w-5 dark:hover:text-zinc-300" />
           </a>
         </div>
       </div>

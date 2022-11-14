@@ -20,14 +20,22 @@ export default function Header() {
       <div className="flex items-center gap-x-3">
         {/* TODO: make the menu better */}
         <nav
-          className={`absolute right-0 top-16 w-48 flex-col gap-y-4 rounded border bg-gray-300 px-6 py-12 text-sm shadow-sm dark:border-gray-700 dark:bg-[#2b2f37] sm:static sm:block sm:w-auto sm:space-x-6 sm:rounded-full sm:bg-transparent sm:px-8 sm:py-3 ${
+          className={`absolute right-0 top-16 w-48 flex-col gap-y-4 rounded border bg-gray-300 px-6 py-12 text-sm shadow-sm dark:border-gray-700 dark:bg-[#2b2f37] sm:static sm:block sm:w-auto sm:space-x-6 sm:rounded-full sm:bg-transparent sm:px-8 sm:py-2.5 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="/links">Links</a>
+          <a className="dark:hover:text-cyan-400" href="#skills">
+            Skills
+          </a>
+          <a className="dark:hover:text-cyan-400" href="#projects">
+            Projects
+          </a>
+          <a className="dark:hover:text-cyan-400" href="#contact">
+            Contact
+          </a>
+          <a className="dark:hover:text-cyan-400" href="/links">
+            Links
+          </a>
         </nav>
         <DarkToggleButton className="sm:hidden" />
         <button
@@ -43,7 +51,7 @@ export default function Header() {
           )}
         </button>
       </div>
-      <DarkToggleButton className="hidden sm:block" />
+      <DarkToggleButton className="hidden sm:flex" />
     </header>
   );
 }
@@ -65,10 +73,10 @@ function DarkToggleButton({ className }: DarkToggleButtonProps) {
 
   return (
     <button
-      className={`${className} rounded-full border p-1.5 shadow-sm dark:border-gray-700`}
+      className={`${className} flex h-10 w-10 items-center justify-center rounded-full border p-1.5 shadow-sm dark:border-gray-700`}
       onClick={toggleDark}
     >
-      <MoonIcon className="h-6 w-6 stroke-gray-800 dark:stroke-gray-300" />
+      <MoonIcon className="h-6 w-6 stroke-zinc-700 dark:stroke-cyan-400" />
     </button>
   );
 }
