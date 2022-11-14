@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+
   body::-webkit-scrollbar {
     @apply w-3 bg-zinc-50 dark:bg-black;
   }
