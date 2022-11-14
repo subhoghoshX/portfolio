@@ -2,7 +2,7 @@ import Project from "./Project";
 
 export default function Projects() {
   return (
-    <article className="mt-20" id="projects">
+    <article className="py-20" id="projects">
       <h2 className="text-center text-4xl font-bold sm:text-5xl">Projects</h2>
       <h3 className="mt-20 inline-block rounded-full border border-cyan-800 bg-cyan-900/30 px-4 py-1.5 text-sm text-cyan-400">
         Personal Projects

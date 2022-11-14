@@ -2,7 +2,7 @@ import { SiTwitter, SiGithub, SiLinkedin } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <article className="text-center md:flex md:items-center md:gap-10 md:py-10 md:text-left">
+    <article className="text-center md:flex md:items-center md:gap-10 md:py-14 md:text-left">
       <div>
         <h1 className="flex flex-col gap-5">
           <span className="hidden text-cyan-400 md:block">Hi,</span>

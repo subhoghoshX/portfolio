@@ -25,9 +25,9 @@ import {
 export default function Skills() {
   const base = "h-8 w-8 transition-colors duration-200";
   return (
-    <article className="mt-20 text-center" id="skills">
+    <article className="mt-10 py-20 text-center" id="skills">
       <h2 className="text-4xl font-bold sm:text-5xl">Skills</h2>
-      <div className="mt-8 grid grid-cols-5 flex-wrap justify-items-center gap-8">
+      <div className="mt-20 grid grid-cols-5 flex-wrap justify-items-center gap-x-8 gap-y-16">
         <SiHtml5 className={`${base} hover:fill-[#E34F26]`} />
         <SiCss3 className={`${base} hover:fill-[#1572B6]`} />
         <SiJavascript className={`${base} hover:fill-[#F7DF1E]`} />

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="mt-40" id="contact">
+    <section className="pt-20" id="contact">
       <h2 className="text-center text-4xl font-bold">Let&apos;s talk!</h2>
       <p className="mt-8 text-center">
         Send me an{" "}
