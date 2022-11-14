@@ -16,6 +16,7 @@ export default function Contact() {
         data-netlify="true"
         name="contact"
       >
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <label className="block font-semibold" htmlFor="user_name">
             Name
