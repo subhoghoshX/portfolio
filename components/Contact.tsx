@@ -7,7 +7,7 @@ export default function Contact() {
         <a href="mailto:contact.subhoghosh@gmail.com" className="text-cyan-400">
           email
         </a>{" "}
-        or tell me about your project right here.
+        or please fill out the form below.
       </p>
 
       <form
