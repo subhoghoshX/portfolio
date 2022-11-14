@@ -10,7 +10,7 @@ export default function Contact() {
         or tell me about your project right here.
       </p>
 
-      <form className="mt-16 bg-zinc-800 p-28 sm:rounded-[3.5rem]" action="">
+      <form className="mt-16 bg-zinc-800 p-28 sm:rounded-[3.5rem]" method="post" data-netlify="true">
         <div>
           <label className="block font-semibold" htmlFor="user_name">
             Name
