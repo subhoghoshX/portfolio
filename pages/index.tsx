@@ -17,18 +17,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Script
-        id="laureate-theme"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            JSON.parse(localStorage.getItem("isDark"))
-              ? document.documentElement.classList.add('dark')
-              : document.documentElement.classList.remove('dark');
-            `,
-        }}
-      />
-
       <div className="bg-zinc-50 dark:bg-black">
         <div className="container border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
           <Header />

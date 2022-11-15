@@ -11,7 +11,7 @@ export default function Contact() {
       </p>
 
       <form
-        className="mt-16 border p-10 md:p-28 rounded-3xl shadow-lg shadow-zinc-900/10 dark:border-zinc-700/50 dark:bg-zinc-800 sm:rounded-[3.5rem]"
+        className="mt-16 rounded-3xl border p-10 shadow-lg shadow-zinc-900/10 dark:border-zinc-700/50 dark:bg-zinc-800 sm:rounded-[3.5rem] md:p-28"
         method="post"
         data-netlify="true"
         name="contact"
