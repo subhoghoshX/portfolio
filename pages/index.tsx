@@ -1,14 +1,23 @@
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
+import { useCallback } from "react";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import type { Container, Engine } from "tsparticles-engine";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 export default function Home() {
+  const particlesInit = useCallback(async (engine: Engine) => {
+    console.log(engine);
+
+    await loadFull(engine);
+  }, [])
   return (
     <div>
       <Head>
