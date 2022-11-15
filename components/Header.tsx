@@ -19,8 +19,14 @@ export default function Header() {
 
       <div className="flex items-center gap-x-3">
         {/* TODO: make the menu better */}
+        {isOpen && (
+          <div
+            onClick={() => setIsOpen((s) => !s)}
+            className="fixed inset-0 bg-zinc-900/50 backdrop-blur"
+          ></div>
+        )}
         <nav
-          className={`absolute right-0 top-16 w-48 flex-col gap-y-4 rounded border bg-gray-300 px-6 py-12 text-sm shadow-sm dark:border-gray-700 dark:bg-[#2b2f37] sm:static sm:block sm:w-auto sm:space-x-6 sm:rounded-full sm:bg-transparent sm:px-8 sm:py-2.5 ${
+          className={`absolute -right-3 top-3 w-56 flex-col gap-y-4 rounded-3xl border bg-white px-6 pt-20 pb-12 text-sm shadow-sm dark:border-gray-700 dark:bg-[#2b2f37] sm:static sm:block sm:w-auto sm:space-x-6 sm:rounded-full sm:bg-transparent sm:px-8 sm:py-2.5 ${
             isOpen ? "flex" : "hidden"
           }`}
         >
@@ -37,11 +43,9 @@ export default function Header() {
             Links
           </a>
         </nav>
-        <DarkToggleButton className="sm:hidden" />
+        <DarkToggleButton className="z-10 sm:hidden" />
         <button
-          className={`relative rounded p-1 hover:bg-gray-300 dark:hover:bg-gray-900 sm:hidden ${
-            isOpen ? "bg-gray-300" : ""
-          }`}
+          className={`relative flex h-10 w-10 items-center justify-center rounded-full border p-1 hover:bg-gray-300 dark:border-gray-700 dark:hover:bg-gray-900 sm:hidden`}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
