@@ -20,21 +20,21 @@ export default function Hero() {
           <a
             href="https://twitter.com/subhoghosh_"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
           >
             <SiTwitter className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
           <a
             href="https://github.com/subhoghoshX"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
           >
             <SiGithub className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
           <a
             href="https://www.linkedin.com/in/subho-ghosh-7a59aa250/"
             target="_blank"
-            rel="noopener norefferer"
+            rel="noopener noreferrer"
           >
             <SiLinkedin className="h-5 w-5 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
