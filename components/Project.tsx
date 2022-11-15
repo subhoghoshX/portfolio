@@ -33,12 +33,16 @@ export default function Project({
           <a
             href={liveUrl}
             className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             View Live
           </a>
           <a
             href={codeUrl}
             className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {isOpenSource ? "My Contrbutions" : "Code"}
           </a>
