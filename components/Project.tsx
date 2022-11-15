@@ -9,7 +9,7 @@ export default function Project({
 }) {
   return (
     <div className="md:grid md:grid-cols-12 md:items-center md:gap-x-14">
-      <div className="relative md:col-span-5">
+      <div className="relative aspect-video md:col-span-5">
         <img
           className="aspect-video rounded-lg md:h-full"
           src={previewUrl}
