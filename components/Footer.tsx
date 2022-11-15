@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <p className="text-center mt-4 text-zinc-600 dark:text-zinc-400">
+        <p className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
           Copyright &copy; {new Date().getFullYear()}. All rights reserved.
         </p>
       </div>
