@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html className="dark">
+    <Html className="dark scroll-smooth">
       <Head />
 
       <Script

@@ -30,16 +30,32 @@ export default function Header() {
             isOpen ? "flex" : "hidden"
           }`}
         >
-          <a className="dark:hover:text-cyan-400" href="#skills">
+          <a
+            className="dark:hover:text-cyan-400"
+            href="#skills"
+            onClick={() => setIsOpen((s) => !s)}
+          >
             Skills
           </a>
-          <a className="dark:hover:text-cyan-400" href="#projects">
+          <a
+            className="dark:hover:text-cyan-400"
+            href="#projects"
+            onClick={() => setIsOpen((s) => !s)}
+          >
             Projects
           </a>
-          <a className="dark:hover:text-cyan-400" href="#contact">
+          <a
+            className="dark:hover:text-cyan-400"
+            href="#contact"
+            onClick={() => setIsOpen((s) => !s)}
+          >
             Contact
           </a>
-          <a className="dark:hover:text-cyan-400" href="/links">
+          <a
+            className="dark:hover:text-cyan-400"
+            href="/links"
+            onClick={() => setIsOpen((s) => !s)}
+          >
             Links
           </a>
         </nav>
