@@ -17,24 +17,6 @@ export default function Projects() {
           codeUrl="https://github.com/subhoghoshX/laureate"
           isOpenSource={false}
         />
-        <Project
-          title="An out of the world project"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ex mi. Nulla a lacinia nisl. Quisque scelerisque velit elit, id imperdiet ipsum malesuada maximus."
-          previewUrl="https://via.placeholder.com/1600x900"
-          alt="preview"
-          liveUrl="#"
-          codeUrl="https://github.com/subhoghoshX/portfolio"
-          isOpenSource={false}
-        />
-        <Project
-          title="An out of the world project"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ex mi. Nulla a lacinia nisl. Quisque scelerisque velit elit, id imperdiet ipsum malesuada maximus."
-          previewUrl="https://via.placeholder.com/1600x900"
-          alt="preview"
-          liveUrl="#"
-          codeUrl="https://github.com/subhoghoshX/portfolio"
-          isOpenSource={false}
-        />
       </div>
       <h3 className="mt-32 inline-block rounded-full border border-cyan-600 px-4 py-1.5 text-sm text-cyan-500 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400">
         Opensource Contributions
@@ -56,15 +38,6 @@ export default function Projects() {
           alt="preview"
           liveUrl="https://defaang.io/"
           codeUrl="https://github.com/csdojo-defaang/defaang/pulls?q=is%3Apr+is%3Aclosed+author%3AsubhoghoshX"
-          isOpenSource={false}
-        />
-        <Project
-          title="An out of the world project"
-          desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ex mi. Nulla a lacinia nisl. Quisque scelerisque velit elit, id imperdiet ipsum malesuada maximus."
-          previewUrl="https://via.placeholder.com/1600x900"
-          alt="preview"
-          liveUrl="#"
-          codeUrl="https://github.com/subhoghoshX/portfolio"
           isOpenSource={false}
         />
       </div>

@@ -22,7 +22,7 @@ export default function Header() {
         {isOpen && (
           <div
             onClick={() => setIsOpen((s) => !s)}
-            className="fixed inset-0 bg-zinc-900/50 backdrop-blur"
+            className="fixed inset-0 bg-zinc-900/50 backdrop-blur sm:hidden"
           ></div>
         )}
         <nav

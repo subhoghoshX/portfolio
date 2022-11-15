@@ -5,11 +5,7 @@ export default function Footer() {
     <footer className="relative mt-20">
       <div className="absolute -top-4 -right-12 -left-12 h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)] dark:bg-cyan-900"></div>
       <div className="py-6">
-        <p className="text-center">
-          Copyright &copy; {new Date().getFullYear()}. All rights reserved.
-        </p>
-
-        <div className="mt-4 flex justify-center gap-x-8">
+        <div className="flex justify-center gap-x-8">
           <a
             href="https://twitter.com/subhoghosh_"
             target="_blank"
@@ -32,6 +28,10 @@ export default function Footer() {
             <SiLinkedin className="h-6 w-6" />
           </a>
         </div>
+
+        <p className="text-center mt-4 text-zinc-600 dark:text-zinc-400">
+          Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+        </p>
       </div>
     </footer>
   );
