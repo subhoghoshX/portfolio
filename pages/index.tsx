@@ -11,17 +11,20 @@ import Skills from "../components/Skills";
 import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import particleOptions from '../particles.js';
+import particleOptions from "../particles.js";
 
 export default function Home() {
   const particlesInit = useCallback(async (engine: Engine) => {
     console.log(engine);
     await loadFull(engine);
-  }, [])
+  }, []);
 
-  const particlesLoaded = useCallback(async (container: Container | undefined ) => {
-    await console.log(container);
-  }, [])
+  const particlesLoaded = useCallback(
+    async (container: Container | undefined) => {
+      await console.log(container);
+    },
+    []
+  );
 
   return (
     <div>
@@ -31,14 +34,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-zinc-50 dark:bg-black relative">
+      <div className="relative bg-zinc-50 dark:bg-black">
         <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
           options={particleOptions}
         />
-        <div className="container border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white relative">
+        <div className="container relative border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
           <Header />
           <main className="mt-10">
             <Hero />
