@@ -17,8 +17,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Script
+        src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+        strategy="beforeInteractive"
+        defer
+      />
+
+      <Script
+        id="particles-script-2"
+        dangerouslySetInnerHTML={{
+          __html: `
+          particlesJS.load("particles-js", "/particles.json")
+        `,
+        }}
+        strategy="afterInteractive"
+        defer
+      />
+
       <div className="bg-zinc-50 dark:bg-black">
-        <div className="container border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
+        <div className="fixed inset-0" id="particles-js"></div>
+        <div className="container relative border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
           <Header />
           <main className="mt-10">
             <Hero />
