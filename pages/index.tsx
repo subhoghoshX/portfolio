@@ -18,12 +18,6 @@ export default function Home() {
       </Head>
 
       <Script
-        src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
-        strategy="beforeInteractive"
-        defer
-      />
-
-      <Script
         id="particles-script-2"
         dangerouslySetInnerHTML={{
           __html: `
