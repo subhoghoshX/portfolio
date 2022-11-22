@@ -29,7 +29,7 @@ export default function Projects() {
           alt="preview"
           liveUrl="https://github.com/AndrejJurkin/create-tw"
           codeUrl="https://github.com/AndrejJurkin/create-tw/pulls?q=is%3Apr+is%3Aclosed+author%3AsubhoghoshX"
-          isOpenSource={false}
+          isOpenSource={true}
         />
         <Project
           title="Defaang"
@@ -38,7 +38,7 @@ export default function Projects() {
           alt="preview"
           liveUrl="https://defaang.io/"
           codeUrl="https://github.com/csdojo-defaang/defaang/pulls?q=is%3Apr+is%3Aclosed+author%3AsubhoghoshX"
-          isOpenSource={false}
+          isOpenSource={true}
         />
       </div>
     </article>

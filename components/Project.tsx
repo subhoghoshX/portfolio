@@ -44,7 +44,7 @@ export default function Project({
             target="_blank"
             rel="noopener noreferrer"
           >
-            {isOpenSource ? "My Contrbutions" : "Code"}
+            {isOpenSource ? "Contrbutions" : "Code"}
           </a>
         </div>
       </div>
