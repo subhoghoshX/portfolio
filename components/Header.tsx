@@ -51,13 +51,13 @@ export default function Header() {
           >
             Contact
           </a>
-          <a
+          <Link
             className="dark:hover:text-cyan-400"
             href="/links"
             onClick={() => setIsOpen((s) => !s)}
           >
-            Links
-          </a>
+            <a>Links</a>
+          </Link>
         </nav>
         <DarkToggleButton className="z-10 sm:hidden" />
         <button

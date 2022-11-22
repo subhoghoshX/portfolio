@@ -10,6 +10,7 @@ import {
 import { BsGlobe } from "react-icons/bs";
 import Footer from "../components/Footer";
 import Link from "../components/Link";
+import NextLink from "next/link";
 
 export default function Home() {
   return (
@@ -23,12 +24,11 @@ export default function Home() {
       <div className="bg-zinc-50 dark:bg-black">
         <div className="container relative flex min-h-screen flex-col border-l border-r border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white">
           <header className="py-10">
-            <a
-              className="rounded-full bg-zinc-800 px-5 py-2 hover:bg-zinc-700"
-              href="/"
-            >
-              Go Back
-            </a>
+            <NextLink href="/">
+              <a className="rounded-full bg-zinc-800 px-5 py-2 hover:bg-zinc-700">
+                Go Back
+              </a>
+            </NextLink>
           </header>
           <main className="mt-10 flex-grow">
             <section className="flex justify-center">
