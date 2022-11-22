@@ -29,10 +29,10 @@ export default function Project({
             {desc}
           </p>
         </div>
-        <div className="mt-4 space-x-5 text-white">
+        <div className="mt-4 flex flex-wrap gap-5 text-white">
           <a
             href={liveUrl}
-            className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
+            className="inline-block rounded bg-zinc-400 px-10 py-2 dark:bg-zinc-700"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ export default function Project({
           </a>
           <a
             href={codeUrl}
-            className="inline-block rounded bg-zinc-400 px-12 py-2 dark:bg-zinc-700"
+            className="inline-block rounded bg-zinc-400 px-10 py-2 dark:bg-zinc-700"
             target="_blank"
             rel="noopener noreferrer"
           >
