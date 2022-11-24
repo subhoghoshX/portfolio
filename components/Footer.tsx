@@ -21,7 +21,7 @@ export default function Footer() {
             <SiGithub className="h-6 w-6 hover:text-zinc-900 dark:hover:text-zinc-300" />
           </a>
           <a
-            href="https://www.linkedin.com/in/subho-ghosh-7a59aa250/"
+            href="https://www.linkedin.com/in/subho-ghosh"
             target="_blank"
             rel="noopener noreferrer"
           >
