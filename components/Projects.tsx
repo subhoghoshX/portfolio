@@ -9,7 +9,7 @@ export default function Projects() {
       </h3>
       <div className="mt-10 space-y-20 md:space-y-14">
         <Project
-          title="Laurete"
+          title="Laureate"
           desc="A blazing fast application to convert your tweet into beautiful images. Have all the configuration options you need at your fingertip. Simple by default, powerful when neeeded."
           previewUrl="/laureate.png"
           alt="preview"
