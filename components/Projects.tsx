@@ -17,6 +17,15 @@ export default function Projects() {
           codeUrl="https://github.com/subhoghoshX/laureate"
           isOpenSource={false}
         />
+        <Project
+          title="Execute"
+          desc="An editor that allows you to create HTML, CSS, and JS or React projects in your browser. Built with rapid prototyping and pair programming in mind Execute will allow you to bring you ideas to life in no time. Note: This project is still in its early stages."
+          previewUrl="/execute.png"
+          alt="preview"
+          liveUrl="https://github.com/subhoghoshX/execute"
+          codeUrl="https://github.com/subhoghoshX/execute"
+          isOpenSource={false}
+        />
       </div>
       <h3 className="mt-32 inline-block rounded-full border border-cyan-600 px-4 py-1.5 text-sm text-cyan-500 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-400">
         Opensource Contributions
